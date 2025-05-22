@@ -316,7 +316,7 @@ import os # Import os if not already imported
 
 # Add your ngrok authtoken BEFORE connecting
 # Replace "YOUR_AUTHTOKEN" with your actual authtoken from https://dashboard.ngrok.com/get-started/your-authtoken
-!ngrok config add-authtoken 2xRUQ5xEwywlWYVp5SkFrHooonv_5Kx9CSMbrjQpg8KvLAjWf
+ngrok.set_auth_token("2xRUQ5xEwywlWYVp5SkFrHooonv_5Kx9CSMbrjQpg8KvLAjWf")
 
 ngrok.kill()  # Stop previous tunnels if any
 
