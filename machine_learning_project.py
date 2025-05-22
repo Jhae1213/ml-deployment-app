@@ -302,9 +302,9 @@ plt.show()
 print("Support Vector Machine (SVM) Performance:")
 print(classification_report(y_test, y_pred_svm))
 
-!pip install mlflow
+pip install mlflow
 
-!pip install pyngrok
+pip install pyngrok
 
 import os
 os.makedirs('artifacts', exist_ok=True)
@@ -633,7 +633,7 @@ plt.gca().invert_yaxis()
 plt.grid(axis='x', linestyle='--', alpha=0.7)
 plt.show()
 
-!pip install streamlit
+pip install streamlit
 
 import streamlit as st
 import pandas as pd
